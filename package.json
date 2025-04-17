@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "postcss src/css/input.css -o public/build/output.css --watch",
+    "copy:js": "cp -R src/js public/js",
+    "build": "NODE_ENV=production postcss src/css/input.css -o public/build/output.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17"
+  }
+}
