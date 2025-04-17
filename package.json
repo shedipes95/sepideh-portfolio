@@ -2,9 +2,9 @@
   "name": "portfolio-site",
   "version": "1.0.0",
   "scripts": {
-    "dev": "postcss src/css/input.css -o public/build/output.css --watch",
-    "copy:js": "cp -R src/js public/js",
-    "build": "NODE_ENV=production postcss src/css/input.css -o public/build/output.css"
+    "dev": "postcss src/css/input.css -o docs/build/output.css --watch",
+    "copy:js": "cp -R src/js docs/js",
+    "build": "NODE_ENV=production postcss src/css/input.css -o docs/build/output.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
